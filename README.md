@@ -21,7 +21,7 @@ You can easily access the source code for each project:
 Here's a list of the projects in the "10 Days of JavaScript" series:
 
 1. [Countdown Timer](./01_Project_CountDown_Timer) ⏳
-2. [Your_Project_Name](./02_Project_Your_Project_Name) 🎯
+2. [Gallery Parallax Effect](./02_Project_Gallery_Parallax_Effect) 📸
 3. [Your_Project_Name](./03_Project_Your_Project_Name) 🔍
 4. [Your_Project_Name](./04_Project_Your_Project_Name) 📷
 5. [Your_Project_Name](./05_Project_Your_Project_Name) 🎥
