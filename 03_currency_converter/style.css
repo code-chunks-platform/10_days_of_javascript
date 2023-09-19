@@ -1,0 +1,180 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&family=Ubuntu&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background-color: #6929ff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+    color: #0a0a0c;
+}
+
+.container  {
+    background-color: #fefeff;
+    padding: 20px;
+    width: 600px;
+    border-radius: 5px;  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#appIcon {
+    width: 100px;
+    height: 100px;
+}
+
+.heading {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.inputSection {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.inputSection #inputField {
+    width: 300px;
+    padding: 10px 15px;
+    border: 2px solid #0a0a0c;
+    border-radius: 3px;
+    outline: none;
+    letter-spacing: 0.8px;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+}
+
+.firstBox {
+    display: flex;  
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    margin-bottom: 20px;
+}
+
+.countryFlag {
+    width: 40px;
+    height: 40px;
+}
+
+.fromBox, .toBox {
+    width: 220px;
+    height: 50px;
+    display: flex;  
+    align-items: center;
+    justify-content: center;
+    background-color: #f9f9ff28;
+    border: 2px solid #0a0a0c54;
+    border-radius: 3px;
+}
+
+select {
+    padding: 5px;
+    color: #0a0a0c;
+    outline: none;
+    border: none;
+    font-size: 14px;
+    font-weight:600;
+    letter-spacing: 0.8px;
+    background: transparent;
+    cursor: pointer;
+    width: 130px;
+}
+
+.icon i {
+    font-size: 20px;
+    font-weight: bolder;
+    color: #0a0a0c;
+    cursor: pointer;
+}
+
+.secondBox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.secondBox h5 {
+    margin: 10px;
+    letter-spacing: 0.8px;
+    font-size: 14px;
+    display: none;
+}
+
+.btn #resultBtn {
+    margin: 10px;
+    padding: 10px 15px;
+    outline: none;
+    border: 2px solid #6929ff;
+    border-radius: 3px;
+    background-color: #6929ff;
+    letter-spacing: 0.8px;
+    color: #f9f9ff;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: all 0.2s ease-in-out;
+}
+
+#resultBtn:hover {
+    background: transparent;
+    border: 2px solid #6929ff;
+    color: #0a0a0c;
+}
+
+.result {
+    margin: 10px;
+    padding: 10px;
+}
+
+table, th, td {
+    border: 2px solid #0a0a0c54;
+    padding: 10px;
+    
+}
+
+table {
+    width: 300px;
+    border-collapse: collapse;
+}
+
+td {
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 600px) {
+    .container {
+        margin: 10px;
+    }
+
+    .firstBox {
+        flex-direction: column;
+        gap: 20px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .container {
+        width: 500px;
+        margin: 10px;
+    }
+
+    .firstBox {
+        flex-direction: column;
+        gap: 20px;
+    }
+}
