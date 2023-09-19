@@ -22,7 +22,7 @@ Here's a list of the projects in the "10 Days of JavaScript" series:
 
 1. [Countdown Timer](./01_Project_CountDown_Timer) ⏳
 2. [Gallery Parallax Effect](./02_Project_Gallery_Parallex_Effect) 📸
-3. [Currency_Converter](./03_Project_currency_converter) 🔍
+3. [Currency_Converter](./03_currency_converter) 🔍
 4. [Your_Project_Name](./04_Project_Your_Project_Name) 📷
 5. [Your_Project_Name](./05_Project_Your_Project_Name) 🎥
 6. [Your_Project_Name](./06_Project_Your_Project_Name) 🌐
